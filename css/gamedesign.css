@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background: darkgreen;
+}
+
+h3
+{
+    font-family: 'VT323', monospace;
+    font-size: 100px;
+    margin: 10px auto;
+    margin-top: 200px;
+    text-align: center;
+    color: khaki
+}  
+
+button{
+ background:linear-gradient(90deg, #03a9f4,#f441a5,#ffeb3b, #03a9f4);
+ width: 8rem;
+ height: 3rem;
+ position: relative;
+ top: 15rem;
+ right: 7rem;
+ background-size: 400%;
+ border-radius: 30px;
+
+
+}
+
+a:hover{
+    animation: animate 8s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+
+   100%
+    {
+        background-position: 400%;
+    }
+}
